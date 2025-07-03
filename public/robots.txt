@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://digital.likhupikemun.gov.np
+
+# Sitemaps
+Sitemap: https://digital.likhupikemun.gov.np/sitemap.xml
+Sitemap: https://digital.likhupikemun.gov.np/sitemap-index.xml
