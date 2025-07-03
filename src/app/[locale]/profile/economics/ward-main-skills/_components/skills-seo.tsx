@@ -69,7 +69,7 @@ export default function SkillsSEO({
       spatialCoverage: {
         "@type": "Place",
         name: "Khajura Rural Municipality, Banke, Nepal",
-        alternateName: "लिखु पिके गाउँपालिका, झापा, नेपाल",
+        alternateName: "लिखु पिके गाउँपालिका, सोलुखुम्बु, नेपाल",
         geo: {
           "@type": "GeoCoordinates",
           latitude: "28.1356",

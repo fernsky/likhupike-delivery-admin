@@ -37,7 +37,7 @@ export function SiteHeader() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="p-2.5 rounded-xl bg-gradient-to-br from-[#123772] to-[#0b1f42] text-white group-hover:shadow-lg group-hover:shadow-[#123772]/25 transition-all duration-300">
-              <TreePalm className="w-5 h-5" />
+              <Mountain className="w-5 h-5" />
             </div>
             <div className="flex flex-col">
               <span className="font-bold tracking-tight text-gray-900">

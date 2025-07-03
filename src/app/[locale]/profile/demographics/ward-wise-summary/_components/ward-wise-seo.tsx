@@ -117,7 +117,7 @@ export default function WardWiseSEO({
         "लिखु पिके जनसंख्या वितरण",
         "लिखु पिके लैङ्गिक अनुपात",
         "लिखु पिके घरधुरी तथ्याङ्क",
-        "झापा जिल्ला जनसंख्या",
+        "सोलुखुम्बु जिल्ला जनसंख्या",
       ],
       url: "https://digital.likhupikemun.gov.np/profile/demographics/ward-wise-summary",
       creator: {

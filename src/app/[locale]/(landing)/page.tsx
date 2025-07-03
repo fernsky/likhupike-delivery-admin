@@ -26,7 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
     // SEO metadata setup - municipality name and details
     const municipalityName = "लिखु पिके गाउँपालिका";
     const municipalityNameEn = "Khajura Rural Municipality";
-    const districtName = "झापा";
+    const districtName = "सोलुखुम्बु";
     const districtNameEn = "Banke";
     const provinceName = "कोशी प्रदेश";
     const provinceNameEn = "Lumbini Province";
@@ -64,7 +64,7 @@ export async function generateMetadata(): Promise<Metadata> {
     ];
 
     // Create detailed description with actual data
-    const descriptionNP = `${municipalityName} झापा जिल्लाको एक प्रमुख स्थानीय तह हो। यहाँको कुल जनसंख्या ${totalPopulation.toLocaleString()} र कुल घरधुरी संख्या ${totalHouseholds.toLocaleString()} छ।  यस पालिकामा पुरुष जनसंख्या ${malePopulation.toLocaleString()}, महिला जनसंख्या ${femalePopulation.toLocaleString()} र साक्षरता दर ${literacyRate}% रहेको छ। ${municipalityName}को आधिकारिक वेबसाइटमा स्वागत छ।`;
+    const descriptionNP = `${municipalityName} सोलुखुम्बु जिल्लाको एक प्रमुख स्थानीय तह हो। यहाँको कुल जनसंख्या ${totalPopulation.toLocaleString()} र कुल घरधुरी संख्या ${totalHouseholds.toLocaleString()} छ।  यस पालिकामा पुरुष जनसंख्या ${malePopulation.toLocaleString()}, महिला जनसंख्या ${femalePopulation.toLocaleString()} र साक्षरता दर ${literacyRate}% रहेको छ। ${municipalityName}को आधिकारिक वेबसाइटमा स्वागत छ।`;
 
     const descriptionEN = `${municipalityNameEn} is a major local body of ${districtNameEn} district. It has a total population of ${totalPopulation.toLocaleString()} and ${totalHouseholds.toLocaleString()} households. The municipality has ${malePopulation.toLocaleString()} male population, ${femalePopulation.toLocaleString()} female population, and a literacy rate of ${literacyRate}%. Welcome to the official website of ${municipalityNameEn}.`;
 
@@ -109,7 +109,7 @@ export async function generateMetadata(): Promise<Metadata> {
     return {
       title: "लिखु पिके गाउँपालिका | आधिकारिक वेबसाइट",
       description:
-        "लिखु पिके गाउँपालिका झापा जिल्लाको एक प्रमुख स्थानीय तह हो। पालिकाको आधिकारिक वेबसाइटमा स्वागत छ।",
+        "लिखु पिके गाउँपालिका सोलुखुम्बु जिल्लाको एक प्रमुख स्थानीय तह हो। पालिकाको आधिकारिक वेबसाइटमा स्वागत छ।",
     };
   }
 }
@@ -127,7 +127,7 @@ export default async function Page({ params }: LanguageParams) {
   // SEO metadata setup - municipality name and details
   const municipalityName = "लिखु पिके गाउँपालिका";
   const municipalityNameEn = "Khajura Rural Municipality";
-  const districtName = "झापा";
+  const districtName = "सोलुखुम्बु";
   const provinceNumber = 5;
   const provinceName = "कोशी प्रदेश";
 

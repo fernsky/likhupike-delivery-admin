@@ -98,7 +98,7 @@ const Statistics = ({
       "लिखु पिके गाउँपालिका जनसंख्या",
       "Khajura Rural Municipality demographics",
       "लिखु पिके जनगणना",
-      "झापा जनसंख्या",
+      "सोलुखुम्बु जनसंख्या",
       "नेपालको जनसंख्या",
     ],
     variableMeasured: [

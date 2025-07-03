@@ -3,18 +3,24 @@ export function ReportCoverPage() {
   const nepaliYear = currentYear + 56; // Convert to Nepali year (BS)
 
   return (
-    <div className="cover-page" style={{ background: 'white' }}>
-      <div style={{ textAlign: "center", marginBottom: "4cm", background: 'white' }}>
+    <div className="cover-page" style={{ background: "white" }}>
+      <div
+        style={{
+          textAlign: "center",
+          marginBottom: "4cm",
+          background: "white",
+        }}
+      >
         <div
           style={{
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
             marginBottom: "2cm",
-            background: 'white'
+            background: "white",
           }}
         >
-          <div style={{ width: "80px", height: "80px", background: 'white' }}>
+          <div style={{ width: "80px", height: "80px", background: "white" }}>
             {/* Nepal Government Logo placeholder */}
             <div
               style={{
@@ -27,20 +33,20 @@ export function ReportCoverPage() {
                 justifyContent: "center",
                 fontSize: "8pt",
                 color: "#666",
-                background: 'white'
+                background: "white",
               }}
             >
               नेपाल सरकार
             </div>
           </div>
-          <div style={{ flexGrow: 1, background: 'white' }}>
+          <div style={{ flexGrow: 1, background: "white" }}>
             <div
               style={{
                 color: "#1e3a8a",
                 fontSize: "20pt",
                 fontWeight: 700,
                 marginBottom: "0.5em",
-                background: 'white'
+                background: "white",
               }}
             >
               लिखु पिके गाउँपालिका
@@ -51,7 +57,7 @@ export function ReportCoverPage() {
                 fontSize: "16pt",
                 fontWeight: 600,
                 marginBottom: "0.5em",
-                background: 'white'
+                background: "white",
               }}
             >
               गाउँकार्यपालिकाको कार्यालय
@@ -61,13 +67,13 @@ export function ReportCoverPage() {
                 color: "#1e40af",
                 fontSize: "12pt",
                 marginBottom: "0.5em",
-                background: 'white'
+                background: "white",
               }}
             >
-              लिखु पिके, झापा, कोशी प्रदेश
+              लिखु पिके, सोलुखुम्बु, कोशी प्रदेश
             </div>
           </div>
-          <div style={{ width: "80px", height: "80px", background: 'white' }}>
+          <div style={{ width: "80px", height: "80px", background: "white" }}>
             {/* Municipality Logo placeholder */}
             <div
               style={{
@@ -80,7 +86,7 @@ export function ReportCoverPage() {
                 justifyContent: "center",
                 fontSize: "8pt",
                 color: "#666",
-                background: 'white'
+                background: "white",
               }}
             >
               गाउँपालिका
@@ -96,7 +102,7 @@ export function ReportCoverPage() {
             margin: "2cm 0",
             fontSize: "24pt",
             fontWeight: 700,
-            background: 'white'
+            background: "white",
           }}
         >
           गाउँपालिका पार्श्वचित्र
@@ -109,18 +115,31 @@ export function ReportCoverPage() {
             fontSize: "18pt",
             fontWeight: 600,
             marginBottom: "1cm",
-            background: 'white'
+            background: "white",
           }}
         >
           डिजिटल प्रोफाइल प्रतिवेदन
         </div>
 
         {/* Bottom Section */}
-        <div style={{ color: "#0f172a", padding: "1em", marginTop: "1cm", background: 'white' }}>
-          <div style={{ fontSize: "16pt", fontWeight: 600, background: 'white' }}>
+        <div
+          style={{
+            color: "#0f172a",
+            padding: "1em",
+            marginTop: "1cm",
+            background: "white",
+          }}
+        >
+          <div
+            style={{ fontSize: "16pt", fontWeight: 600, background: "white" }}
+          >
             मस्यौदा प्रतिवेदन
           </div>
-          <div style={{ fontSize: "18pt", fontWeight: 700, background: 'white' }}>{nepaliYear}</div>
+          <div
+            style={{ fontSize: "18pt", fontWeight: 700, background: "white" }}
+          >
+            {nepaliYear}
+          </div>
         </div>
       </div>
 
@@ -134,11 +153,13 @@ export function ReportCoverPage() {
           textAlign: "center",
           fontSize: "10pt",
           color: "#64748b",
-          background: 'white'
+          background: "white",
         }}
       >
-        <div style={{ background: 'white' }}>प्रकाशन मिति: {nepaliYear} फागुन</div>
-        <div style={{ background: 'white' }}>संस्करण: १.०</div>
+        <div style={{ background: "white" }}>
+          प्रकाशन मिति: {nepaliYear} फागुन
+        </div>
+        <div style={{ background: "white" }}>संस्करण: १.०</div>
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ const Hero: React.FC<HeroProps> = ({
   const households = demographicData?.totalHouseholds || 7562;
 
   // SEO description with actual data
-  const seoDescription = `${municipalityName} (${municipalityNameEn}) - ${localizeNumber(totalArea.toString(), "ne")} वर्ग कि.मि. क्षेत्रफल, ${localizeNumber(wardCount.toString(), "ne")} प्रशासनिक वडाहरू, ${localizeNumber(population.toString(), "ne")} जनसंख्या। झापा जिल्लाको प्राकृतिक सुन्दरता र समृद्ध संस्कृति। सम्पूर्ण जानकारी र नक्सा यहाँ उपलब्ध छ।`;
+  const seoDescription = `${municipalityName} (${municipalityNameEn}) - ${localizeNumber(totalArea.toString(), "ne")} वर्ग कि.मि. क्षेत्रफल, ${localizeNumber(wardCount.toString(), "ne")} प्रशासनिक वडाहरू, ${localizeNumber(population.toString(), "ne")} जनसंख्या। सोलुखुम्बु जिल्लाको प्राकृतिक सुन्दरता र समृद्ध संस्कृति। सम्पूर्ण जानकारी र नक्सा यहाँ उपलब्ध छ।`;
 
   return (
     <>
@@ -102,7 +102,7 @@ const Hero: React.FC<HeroProps> = ({
         {/* Pattern Background */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/likhupike.jpg"
+            src="/images/likhupike-bg.jpg"
             alt="likhupike Municipality Background"
             fill
             priority={true}
@@ -161,7 +161,7 @@ const Hero: React.FC<HeroProps> = ({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              झापा जिल्ला, कोशी प्रदेश
+              सोलुखुम्बु जिल्ला, कोशी प्रदेश
               <div className="text-sm block"> </div>
             </motion.div>
 
@@ -174,7 +174,7 @@ const Hero: React.FC<HeroProps> = ({
             >
               {/* Area Card - improved with stronger background */}
               <div className="flex items-center gap-1.5 sm:gap-2 bg-white/95 backdrop-blur-md px-2 sm:px-3 py-1.5 rounded-full shadow-md text-[#123772] border border-[#123772]/20 border-l-4 border-l-[#1a4894] text-xs sm:text-sm">
-                <TreePalm className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
+                <Mountain className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" />
                 <span
                   className="font-medium whitespace-nowrap"
                   itemProp="areaServed"

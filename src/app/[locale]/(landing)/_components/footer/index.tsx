@@ -46,10 +46,7 @@ const Footer: React.FC<FooterProps> = ({ lng }) => {
           {/* About Column */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-900">लिखु पिके</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              स्वास्थ्य,पूर्वाधार ,लघुउद्यम र कृषिमा क्रान्ति:समृद्ध र
-              सुशासनयुक्त लिखु पिके
-            </p>
+
             <div className="pt-2">
               <Link
                 href="https://likhupikemun.gov.np/"
@@ -82,7 +79,7 @@ const Footer: React.FC<FooterProps> = ({ lng }) => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-900">सम्पर्क</h3>
             <div className="space-y-3 text-sm text-gray-600">
-              <p>लिखु पिके, झापा</p>
+              <p>लिखु पिके, सोलुखुम्बु</p>
               <p>नेपाल</p>
             </div>
           </div>

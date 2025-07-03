@@ -68,7 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ lng }) => {
                 <div className="p-2.5 rounded-xl bg-gradient-to-br  text-white group-hover:shadow-lg group-hover:shadow-[#123772]/25 transition-all duration-300 flex items-center justify-center">
                   {/* <TreePalm className="w-5 h-5" /> */}
                   <Image
-                    src="/images/likhupike_logo.png"
+                    src="/images/likhupike-logo.png"
                     alt="logo"
                     width={70}
                     height={70}

@@ -93,7 +93,7 @@ export default function HomePageSEO({
       "लिखु पिके गाउँपालिका जनसंख्या",
       "Khajura Rural Municipality demographics",
       "लिखु पिके जनगणना",
-      "झापा जनसंख्या",
+      "सोलुखुम्बु जनसंख्या",
       "नेपालको जनसंख्या",
     ],
     creator: {
@@ -107,8 +107,7 @@ export default function HomePageSEO({
     },
     distribution: {
       "@type": "DataDownload",
-      contentUrl:
-        "https://digital.likhupikemun.gov.np/data/demographics.csv",
+      contentUrl: "https://digital.likhupikemun.gov.np/data/demographics.csv",
       encodingFormat: "CSV",
     },
     temporalCoverage: "2021/2023",
@@ -207,8 +206,7 @@ export default function HomePageSEO({
         name: provinceName,
       },
     },
-    photo:
-      "https://digital.likhupikemun.gov.np/images/municipality-photo.jpg",
+    photo: "https://digital.likhupikemun.gov.np/images/municipality-photo.jpg",
   };
 
   // Create WebSite structured data
