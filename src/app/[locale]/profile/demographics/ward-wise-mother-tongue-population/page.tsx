@@ -45,6 +45,8 @@ const LANGUAGE_NAMES: Record<string, string> = {
   BOTE: "बोटे",
   KHAM: "खाम",
   DHIMAL: "धिमाल",
+  BHUJEL: "भुजेल",
+  THAMI: "थामी",
 };
 
 // This function will generate metadata dynamically based on the actual data
@@ -92,6 +94,7 @@ export async function generateMetadata(): Promise<Metadata> {
       SHERPA: "Sherpa",
       DOTELI: "Doteli",
       AWADI: "Awadhi",
+      BHUJEL: "Bhujel",
       OTHER: "Other",
     };
 
@@ -289,8 +292,8 @@ export default async function WardWiseMotherTonguePopulationPage() {
 
           <div className="prose prose-slate dark:prose-invert max-w-none">
             <h1 className="scroll-m-20 tracking-tight mb-6">
-              <span className="font-bold">लिखु पिके गाउँपालिकामा</span>{" "}
-              मातृभाषा अनुसार जनसंख्या
+              <span className="font-bold">लिखु पिके गाउँपालिकामा</span> मातृभाषा
+              अनुसार जनसंख्या
             </h1>
 
             <h2 id="introduction" className="scroll-m-20">

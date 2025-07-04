@@ -60,10 +60,10 @@ export const navItems: NavItem[] = [
       //   title: "जन्म स्थानको आधारमा घरधुरी",
       //   href: "/profile/demographics/ward-wise-birthplace-households",
       // },
-      {
-        title: "बालबालिकाको जन्मदर्ताको आधारमा जनसंख्या",
-        href: "/profile/demographics/ward-wise-birth-certificate-population",
-      },
+      // {
+      //   title: "बालबालिकाको जन्मदर्ताको आधारमा जनसंख्या",
+      //   href: "/profile/demographics/ward-wise-birth-certificate-population",
+      // },
       {
         title: "विगत १२ महिनामा मृत्यु भएकाको विवरण",
         href: "/profile/demographics/ward-age-gender-wise-deceased-population",
@@ -143,26 +143,26 @@ export const navItems: NavItem[] = [
       //   title: "पशुपन्छीजन्य वस्तुको उत्पादन सम्बन्धी विवरण",
       //   href: "/profile/economics/municipality-wide-animal-products",
       // },
-      {
-        title: "खाद्यान्न बालीमा लाग्ने रोग विवरण",
-        href: "/profile/economics/municipality-wide-crop-diseases",
-      },
-      {
-        title: "तरकारी तथा फलफूलमा लाग्ने रोग/किरा",
-        href: "/profile/economics/municipality-wide-vegetables-and-fruits-diseases",
-      },
+      // {
+      //   title: "खाद्यान्न बालीमा लाग्ने रोग विवरण",
+      //   href: "/profile/economics/municipality-wide-crop-diseases",
+      // },
+      // {
+      //   title: "तरकारी तथा फलफूलमा लाग्ने रोग/किरा",
+      //   href: "/profile/economics/municipality-wide-vegetables-and-fruits-diseases",
+      // },
       // {
       //   title: "व्यवसायिक कृषि/पशुपालन फर्महरू",
       //   href: "/profile/economics/commercial-agricultural-animal-husbandry-farmers-group",
       // },
-      {
-        title: "कृषि वा पशुपालन उत्पादनमा आबद्ध घरधुरी",
-        href: "/profile/economics/ward-wise-households-in-agriculture",
-      },
-      {
-        title: "सहकारी संस्थाहरू सम्बन्धी विवरण",
-        href: "/profile/economics/cooperatives",
-      },
+      // {
+      //   title: "कृषि वा पशुपालन उत्पादनमा आबद्ध घरधुरी",
+      //   href: "/profile/economics/ward-wise-households-in-agriculture",
+      // },
+      // {
+      //   title: "सहकारी संस्थाहरू सम्बन्धी विवरण",
+      //   href: "/profile/economics/cooperatives",
+      // },
     ],
   },
   {
